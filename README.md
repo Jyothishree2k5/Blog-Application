@@ -44,11 +44,11 @@ A full-stack blog application built using the MERN (MongoDB, Express.js, React.j
 
 ## Screenshots
 
-![Screenshot 2025-01-01 155359](https://github.com/user-attachments/assets/fb0accc2-06ab-4dab-a038-465a3363cd94)
-![Screenshot 2025-01-01 155416](https://github.com/user-attachments/assets/62347bf4-6a6b-4367-b4bb-16022e48c672)
-![Screenshot 2025-01-01 155408](https://github.com/user-attachments/assets/7cfc669d-0abf-412e-a256-0b8250b22e9b)
-![Screenshot 2025-01-01 155507](https://github.com/user-attachments/assets/6084080d-39a4-46f9-9f94-399c4fec8096)
-![Screenshot 2025-01-01 155458](https://github.com/user-attachments/assets/3049f371-e808-489c-9e70-c83b4914c944)
+Home page - ![Screenshot 2025-01-01 155359](https://github.com/user-attachments/assets/fb0accc2-06ab-4dab-a038-465a3363cd94)
+Register Page - ![Screenshot 2025-01-01 155416](https://github.com/user-attachments/assets/62347bf4-6a6b-4367-b4bb-16022e48c672)
+Login Page - ![Screenshot 2025-01-01 155408](https://github.com/user-attachments/assets/7cfc669d-0abf-412e-a256-0b8250b22e9b)
+Create Post Page- ![Screenshot 2025-01-01 155507](https://github.com/user-attachments/assets/6084080d-39a4-46f9-9f94-399c4fec8096)
+Page after login - ![Screenshot 2025-01-01 155458](https://github.com/user-attachments/assets/3049f371-e808-489c-9e70-c83b4914c944)
 
 
 
