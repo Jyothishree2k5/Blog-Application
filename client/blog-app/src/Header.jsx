@@ -6,7 +6,7 @@ export default function Header() {
     const {setUserInfo,userInfo} = useContext(UserContext);
     const navigate = useNavigate();
     useEffect(() => {
-        fetch('http://localhost:4000/profile', {credentials: 'include'}).then( response => {
+        fetch('https://blog-application-lemon-seven.vercel.app/profile', {credentials: 'include'}).then( response => {
             response.json().then(userInfo => {
                 setUserInfo(userInfo);
                 
@@ -14,7 +14,7 @@ export default function Header() {
         })
     }, []);
     function logout(){
-        fetch('http://localhost:4000/logout', 
+        fetch('https://blog-application-lemon-seven.vercel.app/logout', 
           {credentials: 'include',
             method: 'POST',
           }).then(() => {   
