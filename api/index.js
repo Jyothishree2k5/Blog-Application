@@ -15,7 +15,10 @@ const secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 
 const app = express();
 
-app.use(cors({credentials: true, origin: 'http://localhost:5173'}));
+app.use(cors({
+    credentials: true, 
+    origin: 'http://localhost:5173',
+    methods:['GET','POST','PUT','DELETE']}));
 app.use(express.json());
 app.use(cookieParser());
 app.use('/uploads', express.static(__dirname + '/uploads'));
