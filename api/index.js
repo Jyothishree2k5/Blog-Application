@@ -17,7 +17,7 @@ const app = express();
 
 app.use(cors({
     credentials: true, 
-    origin: 'http://localhost:5173',
+    origin: 'https://blog-application-frontend-three.vercel.app/',
     methods:['GET','POST','PUT','DELETE']}));
 app.use(express.json());
 app.use(cookieParser());
